@@ -1,0 +1,20 @@
+PODS:
+  - Canvas (0.1)
+  - DAKeyboardControl (2.3.0)
+  - URBMediaFocusViewController (0.5.1)
+
+DEPENDENCIES:
+  - Canvas (from `./Canvas.podspec`)
+  - DAKeyboardControl
+  - URBMediaFocusViewController (~> 0.5.1)
+
+EXTERNAL SOURCES:
+  Canvas:
+    :path: ./Canvas.podspec
+
+SPEC CHECKSUMS:
+  Canvas: 1d94806aab1ef0486df719f80f47eccf40a08ae5
+  DAKeyboardControl: 219d6e32b9343eb85151255c43b1f238d8f0bbf7
+  URBMediaFocusViewController: b841d6ca429c8a25c29da4ffbb097dd7cb739cd5
+
+COCOAPODS: 0.28.0
