@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>07ADD029-65BC-4E05-8B25-D50104A4435D</string>
+	<string>3FB3AE83-5E79-46D8-A48C-7817E315139C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TodoList</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>72F1A8BF-AB32-476A-A4FD-3C09E9BCDA7C</key>
-		<string>https://github.com/CanvasPod/Canvas.git</string>
+		<key>EF665ACA-2BE7-4AA8-849F-73590371BBCC</key>
+		<string>https://github.com/CorcovadoMing/iOSCanvasTodoList.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TodoList.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>72F1A8BF-AB32-476A-A4FD-3C09E9BCDA7C</key>
+		<key>EF665ACA-2BE7-4AA8-849F-73590371BBCC</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/CanvasPod/Canvas.git</string>
+	<string>https://github.com/CorcovadoMing/iOSCanvasTodoList.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>72F1A8BF-AB32-476A-A4FD-3C09E9BCDA7C</string>
+	<string>EF665ACA-2BE7-4AA8-849F-73590371BBCC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>72F1A8BF-AB32-476A-A4FD-3C09E9BCDA7C</string>
+			<string>EF665ACA-2BE7-4AA8-849F-73590371BBCC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Canvas</string>
+			<string>iOSCanvasTodoList</string>
 		</dict>
 	</array>
 </dict>

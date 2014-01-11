@@ -17,25 +17,37 @@
                         <rect key="frame" x="20" y="42" width="300" height="1"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bj-Bn-E5p">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bj-Bn-E5p">
                         <rect key="frame" x="20" y="0.0" width="280" height="43"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bxM-ga-PUE" customClass="CSAnimationView">
+                        <rect key="frame" x="270" y="7" width="30" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="bounceLeft"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                <integer key="value" value="0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
                 </subviews>
                 <color key="backgroundColor" red="0.30196079609999998" green="0.74509805439999999" blue="0.84705889229999998" alpha="1" colorSpace="deviceRGB"/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="4Bj-Bn-E5p" secondAttribute="bottom" id="5wd-li-Jfz"/>
-                    <constraint firstItem="hyT-RC-Cej" firstAttribute="leading" secondItem="4Bj-Bn-E5p" secondAttribute="leading" id="8VF-Ws-84S"/>
-                    <constraint firstItem="4Bj-Bn-E5p" firstAttribute="top" secondItem="T0i-yq-tig" secondAttribute="top" id="GNa-Fo-W6G"/>
+                    <constraint firstItem="bxM-ga-PUE" firstAttribute="leading" secondItem="T0i-yq-tig" secondAttribute="leading" constant="270" id="R2Z-y8-UZw"/>
+                    <constraint firstItem="bxM-ga-PUE" firstAttribute="top" secondItem="T0i-yq-tig" secondAttribute="top" constant="7" id="RTz-lK-9vx"/>
+                    <constraint firstItem="hyT-RC-Cej" firstAttribute="top" secondItem="bxM-ga-PUE" secondAttribute="bottom" constant="5" id="TZe-WP-NI0"/>
                     <constraint firstAttribute="bottom" secondItem="hyT-RC-Cej" secondAttribute="bottom" id="bxq-Pn-IwA"/>
-                    <constraint firstAttribute="centerY" secondItem="4Bj-Bn-E5p" secondAttribute="centerY" id="cls-PJ-2p0"/>
+                    <constraint firstAttribute="trailing" secondItem="bxM-ga-PUE" secondAttribute="trailing" constant="20" symbolic="YES" id="caC-sZ-fxg"/>
                     <constraint firstItem="hyT-RC-Cej" firstAttribute="leading" secondItem="T0i-yq-tig" secondAttribute="leading" constant="20" symbolic="YES" id="f1u-Pg-GgB"/>
                     <constraint firstAttribute="trailing" secondItem="hyT-RC-Cej" secondAttribute="trailing" id="htm-pV-88L"/>
-                    <constraint firstAttribute="trailing" secondItem="4Bj-Bn-E5p" secondAttribute="trailing" constant="20" id="lms-hu-nY8"/>
-                    <constraint firstItem="4Bj-Bn-E5p" firstAttribute="leading" secondItem="T0i-yq-tig" secondAttribute="leading" constant="20" id="vx2-24-ZmX"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
